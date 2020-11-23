@@ -18,21 +18,12 @@ app.get('/supply', (req, res) => {
     });
 });
 
-app.get('/supply/:id', (req, res) => {
-    var id = req.params.id;
-    connection.query('SELECT * FROM bahan WHERE id_bahan = ' + id, (error, result) => {
-        if(error) throw error;
-        res.send(result);
-    });
-});
-
 app.post('/supply/buy', (req,res) => {
     const {
         balance,
-        supp_id,
-        amount,
+        items,
     } = req.body.BuySupp;
-    console.log(balance);
+    console.log(req.body.BuySupp.items);
 })
 
 app.listen(port, () => console.log("Backend server live on  " + port));
