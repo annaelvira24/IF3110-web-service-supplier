@@ -1,3 +1,4 @@
+# Tugas Besar 2 IF3110 Pembelajaran Aplikasi Berbasis Web
 # WS-Supplier
 
 ## Deskripsi Web Service
@@ -15,4 +16,4 @@ Web service menerima request dari Willy Wangky's Factory dan mengembalikan data 
 ## Basis data
 | Nomor | Relasi | Penjelasan                                                                                     |
 |-------|--------|------------------------------------------------------------------------------------------------|
-| 1     | bahan  | Relasi ini memiliki berisi data bahan yang dijual yang terdiri dari ID bahan dan harga satuan. |
+| 1     | bahan  | Relasi ini berisi data bahan yang dijual yang terdiri dari ID bahan dan harga satuan.          |
