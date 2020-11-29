@@ -14,8 +14,9 @@ Web service menerima request dari Willy Wangky's Factory dan mengembalikan data 
 
 
 ## Basis data
-### Halaman Login
 ![](screenshot/database.png)
+### Tabel
+
 | Nomor | Relasi | Penjelasan                                                                                     |
 |-------|--------|------------------------------------------------------------------------------------------------|
 | 1     | bahan  | Relasi ini berisi data bahan yang dijual yang terdiri dari ID bahan dan harga satuan.          |
